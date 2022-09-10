@@ -361,7 +361,7 @@ export default function TaskManager(props) {
                             {/* TROUBLESHOOT SECTION */}
                             {project.selectedProject == "troubleshoot" && (
                             <Troubleshoot />)}
-                            {project.selectedProject == "changelocation" && (
+                            {project.selectedProject == "changeLocation" && (
                             <ChangeLocation />
                             )}
                                 

@@ -1,4 +1,5 @@
 import React from "react"
+import Card from "./Card"
 
 export default function Amendment () {
     return (
@@ -86,6 +87,7 @@ export default function Amendment () {
                     </div>
                 </div>
                 </div>
+                    <Card title="Amendment" />
             </div>
             </section>
     )

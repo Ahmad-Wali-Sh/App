@@ -1,4 +1,5 @@
 import React from "react"
+import Card from "./Card"
 
 export default function OnlineSupport () {
     return (
@@ -126,6 +127,7 @@ export default function OnlineSupport () {
                                         </button>
                                       </div>
                                     </div>
+                                        <Card title="Online Support" />
                                   </div>
                                 </div>
                               </section>
