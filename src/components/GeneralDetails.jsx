@@ -25,14 +25,14 @@ export default function GeneralDetails(props) {
           Contract number
         </label>
         <div className="col-4">
-        <input
-                  type="text"
-                  name=""
-                  id="inputEmail3"
-                  placeholder="..."
-                  className="form-control"
-                  />
-                  {props.contract_no}
+          <input
+            type="text"
+            name=""
+            id="inputEmail3"
+            placeholder="..."
+            className="form-control"
+          />
+          {props.contract_no}
         </div>
         <div className="col-1"></div>
         <label
@@ -42,15 +42,15 @@ export default function GeneralDetails(props) {
           POC Name
         </label>
         <div className="col-4">
-        <input
-                  type="text"
-                  name=""
-                  id="inputEmail3"
-                  placeholder="..."
-                  className="form-control"
-                  />
-            {props.full_name}
-          
+          <input
+            type="text"
+            name=""
+            id="inputEmail3"
+            placeholder="..."
+            className="form-control"
+          />
+          {props.full_name}
+
         </div>
       </div>
       <div className="row mt-1">
@@ -61,14 +61,14 @@ export default function GeneralDetails(props) {
           Contact
         </label>
         <div className="col-sm-4">
-        <input
-                  type="text"
-                  name=""
-                  id="inputEmail3"
-                  placeholder="..."
-                  className="form-control"
-                  />
-            {props.contact}
+          <input
+            type="text"
+            name=""
+            id="inputEmail3"
+            placeholder="..."
+            className="form-control"
+          />
+          {props.contact}
         </div>
         <div className="col-1"></div>
         <label
@@ -78,14 +78,14 @@ export default function GeneralDetails(props) {
           Organization
         </label>
         <div className="col-sm-3">
-        <input
-                  type="text"
-                  name=""
-                  id="inputEmail3"
-                  placeholder="..."
-                  className="form-control"
-                  />
-            {props.organization}
+          <input
+            type="text"
+            name=""
+            id="inputEmail3"
+            placeholder="..."
+            className="form-control"
+          />
+          {props.organization}
 
         </div>
       </div>
@@ -97,14 +97,14 @@ export default function GeneralDetails(props) {
           Address
         </label>
         <div className="col-sm-10">
-        <input
-                  type="text"
-                  name=""
-                  id="inputEmail3"
-                  placeholder="..."
-                  className="form-control"
-                  />
-            {props.address}
+          <input
+            type="text"
+            name=""
+            id="inputEmail3"
+            placeholder="..."
+            className="form-control"
+          />
+          {props.address}
         </div>
       </div>
       <div className="row mt-1">
@@ -115,14 +115,14 @@ export default function GeneralDetails(props) {
           Bandwidth
         </label>
         <div className="col-sm-10">
-        <input
-                  type="text"
-                  name=""
-                  id="inputEmail3"
-                  placeholder="..."
-                  className="form-control"
-                  />
-            {props.package}
+          <input
+            type="text"
+            name=""
+            id="inputEmail3"
+            placeholder="..."
+            className="form-control"
+          />
+          {props.package}
         </div>
       </div>
       <div

@@ -131,7 +131,7 @@ export default function TaskManager(props) {
                   id="addTaskModal"
                   tabIndex="-1"
                   role="dialog"
-                 // aria-lablledby="addTaskModalTitle"
+                  // aria-lablledby="addTaskModalTitle"
                   aria-hidden="true"
                 >
                   <div className="modal-dialog modal-xl" role="document">
@@ -343,28 +343,28 @@ export default function TaskManager(props) {
                               </div>
                             </div>
                             {project.selectedProject == "installation" && (
-                            <GeneralDetails 
-                              contract_no={contract.contract_no}
-                              full_name={contract.full_name}
-                              contact={contract.contact}
-                              organization={contract.organization}
-                              address={contract.address}
-                              package={contract.package}
-                            />
+                              <GeneralDetails
+                                contract_no={contract.contract_no}
+                                full_name={contract.full_name}
+                                contact={contract.contact}
+                                organization={contract.organization}
+                                address={contract.address}
+                                package={contract.package}
+                              />
                             )}
                             {project.selectedProject == "onlineSupport" && (
-                            <OnlineSupport />
+                              <OnlineSupport />
                             )}
 
                             {/* END ONLINE SUPPORT */}
 
                             {/* TROUBLESHOOT SECTION */}
                             {project.selectedProject == "troubleshoot" && (
-                            <Troubleshoot />)}
+                              <Troubleshoot />)}
                             {project.selectedProject == "changeLocation" && (
-                            <ChangeLocation />
+                              <ChangeLocation />
                             )}
-                                
+
 
                             {/* AMENDMENT */}
                             {project.selectedProject == "amendment" && (
@@ -375,7 +375,7 @@ export default function TaskManager(props) {
                             {/* LOG NOTE AND MESSAGE */}
                             <LogMessage />
                             {/* END LOG NOTE AND MESSAGE */}
-                            
+
                           </div>
                         </div>
                       </div>
