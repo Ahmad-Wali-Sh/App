@@ -5,12 +5,12 @@ export default function LogMessage () {
         <>
         <nav>
                               <div
-                                className="nav nav-tabs"
+                                class="nav nav-tabs"
                                 id="nav-tab"
                                 role="tablist"
                               >
                                 <button
-                                  className="nav-link active"
+                                  class="nav-link active"
                                   id="nav-message-tab"
                                   data-bs-toggle="tab"
                                   data-bs-target="#nav-message"
@@ -22,7 +22,7 @@ export default function LogMessage () {
                                   Send message
                                 </button>
                                 <button
-                                  className="nav-link"
+                                  class="nav-link"
                                   id="nav-log-tab"
                                   data-bs-toggle="tab"
                                   data-bs-target="#nav-log"
@@ -35,13 +35,13 @@ export default function LogMessage () {
                                 </button>
                               </div>
                             </nav>
-                            <div className="tab-content" id="nav-tabContent">
+                            <div class="tab-content" id="nav-tabContent">
                               <div
-                                className="tab-pane fade show active"
+                                class="tab-pane fade show active"
                                 id="nav-message"
                                 role="tabpanel"
                                 aria-labelledby="nav-message-tab"
-                                tabIndex="0"
+                                tabindex="0"
                               >
                                 <div className="card text-dark bg-light mb-3">
                                   {/* <div className="card-header">Log note</div> */}
@@ -101,11 +101,11 @@ export default function LogMessage () {
                                 </div>
                               </div>
                               <div
-                                className="tab-pane fade rounded-0"
+                                class="tab-pane fade rounded-0"
                                 id="nav-log"
                                 role="tabpanel"
                                 aria-labelledby="nav-log-tab"
-                                tabIndex="0"
+                                tabindex="0"
                               >
                                 <div className="card text-dark bg-light mb-3">
                                   {/* <div className="card-header">Log note</div> */}
@@ -154,6 +154,7 @@ export default function LogMessage () {
                                 </div>
                               </div>
                             </div>
+
         </>
     )
 }

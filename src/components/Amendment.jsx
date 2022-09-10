@@ -1,5 +1,6 @@
 import React from "react"
 import Card from "./Card"
+import LogMessage from "./LogMessage"
 
 export default function Amendment () {
     return (
@@ -88,6 +89,7 @@ export default function Amendment () {
                 </div>
                 </div>
                     <Card title="Amendment" />
+                    <LogMessage />
             </div>
             </section>
     )

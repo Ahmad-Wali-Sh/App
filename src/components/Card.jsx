@@ -4,7 +4,7 @@ export default function Card (props) {
     return (
             <div className="card bg-light mb-3 mt-3">
                 <div className="card-header">
-                <h1>{props.title}</h1>
+                {props.title}
                 </div>
                 <div className="card-body">
                 <div className="row">

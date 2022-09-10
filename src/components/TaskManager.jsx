@@ -373,8 +373,9 @@ export default function TaskManager(props) {
                             {/* END AMENDMENT */}
 
                             {/* LOG NOTE AND MESSAGE */}
-                              <LogMessage />
+                            <LogMessage />
                             {/* END LOG NOTE AND MESSAGE */}
+                            
                           </div>
                         </div>
                       </div>
