@@ -141,74 +141,77 @@ export default function Troubleshoot() {
           <Card title="Troubleshoot Result" />
           {/* TROUBLESHOOTING CHECKLIST */}
         </div>
-        <h4 className="mt-3">Checklist</h4>
-        <br />
         <div className="form-check ml-3">
-          <ul className="list-unstyled">
-            <li className="list-item">
-              <input
-                type="checkbox"
-                className="form-check-input border border-primary"
-                name=""
-                id=""
-              />
-              &nbsp;Cable
-            </li>
-            <li className="list-item">
-              <input
-                type="checkbox"
-                className="form-check-input border border-primary"
-                name=""
-                id=""
-              />
-              &nbsp;Stand
-            </li>
-            <li className="list-item">
-              <input
-                type="checkbox"
-                className="form-check-input border border-primary"
-                name=""
-                id=""
-              />
-              &nbsp;Router
-            </li>
-            <li className="list-item">
-              <input
-                type="checkbox"
-                className="form-check-input border border-primary"
-                name=""
-                id=""
-              />
-              &nbsp;Antenna
-            </li>
-            <li className="list-item">
-              <input
-                type="checkbox"
-                className="form-check-input border border-primary"
-                name=""
-                id=""
-              />
-              &nbsp;Router OS
-            </li>
-            <li className="list-item">
-              <input
-                type="checkbox"
-                className="form-check-input border border-primary"
-                name=""
-                id=""
-              />
-              &nbsp;Signal
-            </li>
-            <li className="list-item">
-              <input
-                type="checkbox"
-                className="form-check-input border border-primary"
-                name=""
-                id=""
-              />
-              &nbsp;DNS
-            </li>
-          </ul>
+
+          <h4 className="mt-3">Checklist</h4>
+          <br />
+          <div className="form-check ml-3">
+            <ul className="list-unstyled">
+              <li className="list-item">
+                <input
+                  type="checkbox"
+                  className="form-check-input border border-primary"
+                  name=""
+                  id=""
+                />
+                &nbsp;Cable
+              </li>
+              <li className="list-item">
+                <input
+                  type="checkbox"
+                  className="form-check-input border border-primary"
+                  name=""
+                  id=""
+                />
+                &nbsp;Stand
+              </li>
+              <li className="list-item">
+                <input
+                  type="checkbox"
+                  className="form-check-input border border-primary"
+                  name=""
+                  id=""
+                />
+                &nbsp;Router
+              </li>
+              <li className="list-item">
+                <input
+                  type="checkbox"
+                  className="form-check-input border border-primary"
+                  name=""
+                  id=""
+                />
+                &nbsp;Antenna
+              </li>
+              <li className="list-item">
+                <input
+                  type="checkbox"
+                  className="form-check-input border border-primary"
+                  name=""
+                  id=""
+                />
+                &nbsp;Router OS
+              </li>
+              <li className="list-item">
+                <input
+                  type="checkbox"
+                  className="form-check-input border border-primary"
+                  name=""
+                  id=""
+                />
+                &nbsp;Signal
+              </li>
+              <li className="list-item">
+                <input
+                  type="checkbox"
+                  className="form-check-input border border-primary"
+                  name=""
+                  id=""
+                />
+                &nbsp;DNS
+              </li>
+            </ul>
+          </div>
         </div>
         {/* END CHECKLIST */}
       </div>
