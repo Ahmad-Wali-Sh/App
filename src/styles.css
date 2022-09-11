@@ -25,6 +25,12 @@
     font-weight: bold;
 }
 
+.tasktitle{
+    padding:0px;
+    margin:0px;
+    font-size: 1.4rem;
+}
+
 .cardTitleText {
     color: #212529;
 }
@@ -179,6 +185,8 @@ input:checked+.slider:before {
     display: flex;
     flex-direction: row;
     text-align: center;
+    position: relative;
+    top:2rem;
 }
 
 .circle-width {

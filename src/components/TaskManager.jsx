@@ -4,13 +4,13 @@ import { useRef } from "react";
 //import { useEffect } from "react";
 //import { Link, Routers , Route } from "react-router-dom";
 import axios from "axios";
-import GeneralDetails from "./GeneralDetails";
-import Troubleshoot from "./Troubleshoot";
-import Amendment from "./Amendment";
-import OnlineSupport from "./OnlineSupport";
-import ChangeLocation from "./ChangeLocation";
-import LogMessage from "./LogMessage";
-import { Details, MainDetails } from "./Details";
+import GeneralDetails from "./subcomponents/GeneralDetails";
+import Troubleshoot from "./subcomponents/Troubleshoot";
+import Amendment from "./subcomponents/Amendment";
+import OnlineSupport from "./subcomponents/OnlineSupport";
+import ChangeLocation from "./subcomponents/ChangeLocation";
+import LogMessage from "./subcomponents/LogMessage";
+import { Details, MainDetails } from "./subcomponents/Details";
 
 export default function TaskManager(props) {
   // console.log(props);
@@ -106,7 +106,7 @@ export default function TaskManager(props) {
                 <ol className="breadcrumb float-sm-right">
                   <li className="breadcrumb-item">
                   </li>
-                  <li className="breadcrumb-item active">Project</li>
+
                 </ol>
               </div>
             </div>
@@ -118,7 +118,7 @@ export default function TaskManager(props) {
             <div className="row mb-5">
               <div className="col-10 offset-md-1">
                 <div className="flexer"> 
-                <h3 className="float-left">Tasks&nbsp;</h3>
+                <p className="float-left tasktitle">Tasks&nbsp;</p>
                 <button
                   type="button"
                   name="addTask"
@@ -126,7 +126,7 @@ export default function TaskManager(props) {
                   data-bs-toggle="modal"
                   data-bs-target="#addTaskModal"
                   >
-                  <i className="fa-solid fa-plus"></i>
+                  <i className="fa-solid fa-plus "></i>
                 </button>
                 </div>
                 <div
