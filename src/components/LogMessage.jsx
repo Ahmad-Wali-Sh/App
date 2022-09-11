@@ -136,8 +136,8 @@ export default function LogMessage() {
                             <div className="row">
                                 <div className="col-1 col-md-1 col-sm-2"></div>
                                 <div className="col-1 col-md-2 col-sm-6 mt-1">
-                                <i className="fa-regular fa-face-smile p-1 icon"></i>
-                                <i className="fa-solid fa-paperclip p-1 icon"></i>
+                                <i className="fa-regular fa-face-smile p-1 icon text-muted"></i>
+                                <i className="fa-solid fa-paperclip p-1 icon text-muted"></i>
                                 </div>
                             </div>
                             <div className="row">
