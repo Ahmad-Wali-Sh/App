@@ -117,16 +117,18 @@ export default function TaskManager(props) {
           <div className="container">
             <div className="row mb-5">
               <div className="col-10 offset-md-1">
+                <div className="flexer"> 
                 <h3 className="float-left">Tasks&nbsp;</h3>
                 <button
                   type="button"
                   name="addTask"
-                  className="btn btn-secondary rounded-circle"
+                  className="btn btn-secondary rounded-circle circle-width"
                   data-bs-toggle="modal"
                   data-bs-target="#addTaskModal"
-                >
+                  >
                   <i className="fa-solid fa-plus"></i>
                 </button>
+                </div>
                 <div
                   className="modal fade"
                   id="addTaskModal"
@@ -138,7 +140,7 @@ export default function TaskManager(props) {
                   <div className="modal-dialog modal-xl" role="document">
                     <div className="modal-content">
                       <div className="modal-header bg-primary">
-                        <h5 className="modal-title" id="addTaskModalTitle">
+                        <h5 className="modal-title cl-light text-light" id="addTaskModalTitle">
                           New Task
                         </h5>
                         <button
@@ -147,7 +149,7 @@ export default function TaskManager(props) {
                           data-bs-dismiss="modal"
                           aria-label="Close"
                         >
-                          <i class="fa-regular fa-circle-xmark icon"></i>
+                          <i class="fa-duotone fa-circle-xmark close-icon"></i>
                         </button>
                       </div>
                       <div className="modal-body">
@@ -402,17 +404,17 @@ export default function TaskManager(props) {
             </div>
             <div className="details">
             <Details title="Installation" className="spacer">
-              <MainDetails name="INSO Herat" internet="6Mb-24h Dedicated" status="Urgent" number="0/3" badge="danger" />
-              <MainDetails name="Mohammad Ishaaq Yamayee" internet="3Mb-12h Shared" status="Normal" number="2/4" badge="primary" />
+              <MainDetails name="INSO Herat" internet="6Mb-24h Dedicated" status="Urgent" number="0/3" badge="danger" avatar1="/images/avatar1.jpeg" avatar2="/images/avatar2.jpeg" avatar3="/images/avatar3.jpeg"/>
+              <MainDetails name="Mohammad Ishaaq Yamayee" internet="3Mb-12h Shared" status="Normal" number="2/4" badge="primary" avatar2="/images/avatar2.jpeg" avatar1="/images/avatar1.jpeg" />
             </Details>
 
             <Details title="Troubleshoot" className="spacer">
-              <MainDetails name="Hafiz Morady" internet="7Mb-24h Dedicated" status="Normal" number="2/5" badge="primary" />
-              <MainDetails name="CRS NGO" internet="10Mb-24h Dedicated" status="Complete" number="5/5" badge="success" />
+              <MainDetails name="Hafiz Morady" internet="7Mb-24h Dedicated" status="Normal" number="2/5" badge="primary" avatar1="/images/avatar1.jpeg" avatar2="/images/avatar2.jpeg"/>
+              <MainDetails name="CRS NGO" internet="10Mb-24h Dedicated" status="Complete" number="5/5" badge="success" avatar3="/images/avatar3.jpeg" avatar1="/images/avatar1.jpeg" avatar2="/images/avatar2.jpeg"/>
             </Details>           
             <Details title="Online Support" className="spacer">
-              <MainDetails name="Mored Arian" internet="5Mb-24h Dedicated" status="Normal" number="1/2" badge="primary" />
-              <MainDetails name="Nawid Rasooly" internet="2Mb-12h Dedicated" status="Pending" number="1/5" badge="warning" />
+              <MainDetails name="Mored Arian" internet="5Mb-24h Dedicated" status="Normal" number="1/2" badge="primary" avatar3="/images/avatar3.jpeg" avatar1="/images/avatar1.jpeg" avatar2="/images/avatar2.jpeg"/>
+              <MainDetails name="Nawid Rasooly" internet="2Mb-12h Dedicated" status="Pending" number="1/2" badge="warning" avatar3="/images/avatar3.jpeg" avatar1="/images/avatar1.jpeg" avatar2="/images/avatar2.jpeg" avatar4="/images/avatar4.jpg"/>
             </Details>
             </div> 
                         

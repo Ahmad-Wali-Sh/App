@@ -8,27 +8,31 @@ export function MainDetails(props) {
                     <div className="cardTitleText bold">{props.name}</div>
                     <p className="text-muted">{props.internet}</p>
                 </div>
-                <div className="col-2 ttt">
-                    <div className="float-left">
-                        <img
-                            src="/images/avatar4.jpg"
-                            alt="avatar"
+                <div className="col-4 ttt">
+                    <div className="flexing">
+
+                    <div className="image--flex">
+                       { props.avatar1 && <img
+                            src={props.avatar1}
                             className="avatar"
-                        />
-                        <img
-                            src="/images/avatar1.jpeg"
-                            alt="avatar"
+                            /> }
+                       { props.avatar2 && <img
+                            src={props.avatar2}
                             className="avatar"
-                        />
-                        <img
-                            src="/images/avatar2.jpeg"
-                            alt="avatar"
+                        /> }
+                       { props.avatar3 && <img
+                            src={props.avatar3}
                             className="avatar"
-                        />
+                        /> }
+                       { props.avatar4 && <img
+                            src={props.avatar4}
+                            className="avatar"
+                        /> }
+                        
                     </div>
                     <div className="buttons">
-                        <button className="btn tools">
-                            <i className="fa-solid fa-list-check"></i> {props.number}
+                        <button className="btn tools iconsize">
+                            <i className="fa-solid fa-list-check "></i> {props.number}
                         </button>
                         {/* <button className="btn">
                   <i className="fa-solid fa-ellipsis-vertical"></i>
@@ -62,6 +66,7 @@ export function MainDetails(props) {
                                 </li>
                             </ul>
                         </div>
+                            </div>
                     </div>
                 </div>
                 {/* Button */}
@@ -86,7 +91,7 @@ export function Details (props) {
                 <div className="col-10 offset-md-1">
                     <div className="card">
                         <div className="card-header">
-                            <h3>{props.title}</h3>
+                            {props.title}
                         </div>
                         <div className="card-body">
                             {/* <div className="cardItem">
