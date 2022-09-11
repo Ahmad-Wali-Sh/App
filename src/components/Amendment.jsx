@@ -89,7 +89,6 @@ export default function Amendment() {
                     </div>
                 </div>
                 <Card title="Amendment" />
-                <LogMessage />
             </div>
         </section>
     )

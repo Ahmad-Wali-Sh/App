@@ -132,3 +132,9 @@ input:checked+.slider:before {
 }
 
 /* End Toogle switch */
+
+
+.icon:hover {
+    background-color: #ccc;
+    border-radius: 10px;
+}

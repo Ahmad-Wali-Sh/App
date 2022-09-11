@@ -82,9 +82,9 @@ export default function LogMessage() {
                             </div>
                             <div className="row">
                                 <div className="col-1 col-md-1 col-sm-2"></div>
-                                <div className="col-1 col-md-2 col-sm-6 mt-1">
-                                    <i className="fa-duotone fa-paperclip mr-2"></i>
-                                    <i className="fa-regular fa-face-smile text-muted"></i>
+                                <div className="col-1 col-md-2 col-sm-6 mt-1 text-muted">
+                                <i className="fa-regular fa-face-smile p-1 icon"></i>
+                                    <i className="fa-solid fa-paperclip p-1 icon"></i>
                                 </div>
                             </div>
                             <div className="row">
@@ -136,8 +136,8 @@ export default function LogMessage() {
                             <div className="row">
                                 <div className="col-1 col-md-1 col-sm-2"></div>
                                 <div className="col-1 col-md-2 col-sm-6 mt-1">
-                                    <i className="fa-duotone fa-paperclip mr-2"></i>
-                                    <i className="fa-regular fa-face-smile text-muted"></i>
+                                <i className="fa-regular fa-face-smile p-1 icon"></i>
+                                <i className="fa-solid fa-paperclip p-1 icon"></i>
                                 </div>
                             </div>
                             <div className="row">
