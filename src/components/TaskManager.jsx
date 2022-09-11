@@ -142,13 +142,12 @@ export default function TaskManager(props) {
                         </h5>
                         <button
                           type="button"
-                          className="close"
+                          className="close "
                           data-bs-dismiss="modal"
                           aria-label="Close"
                         >
-                          <span aria-hidden="true" style={{ color: "white" }}>
-                            <i className="fa-solid fa-circle-xmark"></i>
-                          </span>
+                            <i class="fa-regular fa-circle-xmark"></i>
+                          
                         </button>
                       </div>
                       <div className="modal-body">
