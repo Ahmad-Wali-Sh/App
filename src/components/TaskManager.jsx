@@ -400,19 +400,22 @@ export default function TaskManager(props) {
                 </div>
               </div>
             </div>
-            <Details title="Installation">
+            <div className="details">
+            <Details title="Installation" className="spacer">
               <MainDetails name="INSO Herat" internet="6Mb-24h Dedicated" status="Urgent" number="0/3" badge="danger" />
               <MainDetails name="Mohammad Ishaaq Yamayee" internet="3Mb-12h Shared" status="Normal" number="2/4" badge="primary" />
             </Details>
-            <Details title="Troubleshoot">
 
+            <Details title="Troubleshoot" className="spacer">
               <MainDetails name="Hafiz Morady" internet="7Mb-24h Dedicated" status="Normal" number="2/5" badge="primary" />
               <MainDetails name="CRS NGO" internet="10Mb-24h Dedicated" status="Complete" number="5/5" badge="success" />
-            </Details>
-            <Details title="Online Support">
+            </Details>           
+            <Details title="Online Support" className="spacer">
               <MainDetails name="Mored Arian" internet="5Mb-24h Dedicated" status="Normal" number="1/2" badge="primary" />
               <MainDetails name="Nawid Rasooly" internet="2Mb-12h Dedicated" status="Pending" number="1/5" badge="warning" />
             </Details>
+            </div> 
+                        
 
           </div>
         </section>
